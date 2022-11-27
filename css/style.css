@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Background ====================================================================*/
+
+body {
+  background-color: whitesmoke;
+  margin: 0 0 0 0;
+}
+
+/* Fonts ====================================================================*/
+
+/* Columns and Rows ====================================================================*/
+
+.column {
+  float: left;
+  padding: 10px;
+  padding-top: 0px;
+}
+
+.column.side {
+  width: 20%;
+}
+
+.column.middle {
+  width: 60%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.head-col {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+@media (max-width: 800px) /* For body responsiveness */ {
+  .column.side,
+  .column.middle {
+    width: 100%;
+  }
+}
+
+/* Header ====================================================================*/
+
+.header-container {
+  background-color: rgb(255, 104, 104);
+  display: block;
+
+  text-align: center;
+
+  margin: auto;
+
+  overflow: hidden;
+}
+
+.header-text {
+  padding: 50px;
+}
+
+/* Navigation Bar ====================================================================*/
+
+/* Sections  ============================================================================*/
+
+.section {
+  padding: 50px;
+  text-align: justify;
+}
+
+.section:hover {
+  background-color: rgb(172, 172, 172);
+}
+
+.report-section {
+  padding: 50px;
+  text-align: justify;
+}
+
+.invalid {
+  background-color: rgb(247, 104, 104);
+}
+
+li {
+  padding: 10px;
+}
+
+#intro-text {
+  padding: 50px;
+}
+
+/* Footer ====================================================================*/
+
+/* Buttons ====================================================================*/
+
+.submit-button {
+  background-color: lightcoral;
+  color: white;
+  font-family: "roboto";
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+.submit-button:hover {
+  background-color: hsl(25, 100%, 70%);
+}
+
+#submit-section:hover {
+  background-color: inherit;
+}
+
+/* Field Formatting ==================================================================== */
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input {
+  padding: 5px;
+}
+
+.valid-input {
+  background-color: greenyellow;
+}
+
+.invalid-input {
+  background-color: pink;
+}
+
+#country-code,
+#alt-country-code {
+  width: 50px;
+}
+
+#area-code,
+#alt-area-code {
+  width: 50px;
+}
+
+#suffix,
+#alt-suffix {
+  width: 70px;
+}
+
+#particulars,
+#disqualification-particulars {
+  width: 75%;
+  height: 250px;
+}
+
+#street,
+#alt-street {
+  width: 75%;
+}
+
+#full-name {
+  width: 300px;
+}

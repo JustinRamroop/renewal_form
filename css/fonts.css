@@ -1,0 +1,96 @@
+/* Fonts */
+
+@font-face {
+  font-family: roboto;
+  src: url(fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+  font-family: roboto bold;
+  src: url(fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+  font-family: roboto light;
+  src: url(fonts/Roboto-light.ttf);
+}
+
+/* Text Formatting */
+
+h1 {
+  font-size: 52px;
+}
+
+h2 {
+  padding: 20px;
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "roboto";
+  color: black;
+  margin: 0px;
+  text-align: center;
+}
+
+.heading1,
+.heading2,
+.heading3,
+.heading4,
+.heading5 {
+  margin: 5px;
+}
+
+p,
+ol {
+  font-size: 16px;
+  font-family: "roboto";
+  width: 80%;
+  line-height: 1.4;
+  max-width: 1050px;
+  margin: auto;
+}
+
+.required-star {
+  color: red;
+}
+
+.form-field {
+  font-size: 16px;
+  font-family: "roboto";
+  width: 80%;
+  line-height: 1.4;
+  max-width: 1050px;
+  margin: auto;
+}
+
+#header-title {
+  color: rgb(141, 17, 42);
+  padding: 20px 20px;
+}
+
+#header-subtitle {
+  text-align: right;
+  color: rgb(255, 255, 255);
+  font-family: "roboto light";
+}
